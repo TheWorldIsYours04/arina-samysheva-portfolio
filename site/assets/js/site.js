@@ -81,21 +81,38 @@
   }
   const menuButton = document.querySelector('.menu-toggle');
   const menu = document.querySelector('.site-nav');
-  const closeMenu = () => {
-    if (!menu || !menuButton) return;
-    menu.classList.remove('is-open'); menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Открыть меню');
-  };
-  if (menu && menuButton) {
-    menuButton.addEventListener('click', () => {
-      const opened = menu.classList.toggle('is-open');
+  const siteHeader = document.querySelector('.site-header');
+  if (menu && menuButton && siteHeader) {
+    const desktop = window.matchMedia('(min-width: 681px)');
+    const setMenuOpen = opened => {
+      opened = Boolean(opened) && !desktop.matches;
+      menu.classList.toggle('is-open', opened);
       menuButton.setAttribute('aria-expanded', String(opened));
       menuButton.setAttribute('aria-label', opened ? 'Закрыть меню' : 'Открыть меню');
+    };
+    const closeMenu = () => setMenuOpen(false);
+    closeMenu();
+    menuButton.addEventListener('click', () => {
+      setMenuOpen(menuButton.getAttribute('aria-expanded') !== 'true');
     });
-    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') {closeMenu();} });
-    document.addEventListener('click', e => { if (!e.target.closest('.site-header')) closeMenu(); });
-    matchMedia('(min-width: 681px)').addEventListener('change', closeMenu);
+    menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        closeMenu();
+        menuButton.focus({preventScroll: true});
+      }
+    });
+    document.addEventListener('click', event => {
+      if (event.target instanceof Node && !siteHeader.contains(event.target)) closeMenu();
+    });
+    siteHeader.addEventListener('focusout', event => {
+      if (event.relatedTarget instanceof Node && !siteHeader.contains(event.relatedTarget)) closeMenu();
+    });
+    // Safari/VK webviews may restore the page from back-forward cache with an open menu.
+    window.addEventListener('pageshow', closeMenu);
+    window.addEventListener('pagehide', closeMenu);
+    if (typeof desktop.addEventListener === 'function') desktop.addEventListener('change', closeMenu);
+    else if (typeof desktop.addListener === 'function') desktop.addListener(closeMenu);
   }
   const top = document.querySelector('.to-top');
   if (top) {

@@ -4,11 +4,12 @@ Run from any directory: python3 source/build.py
 Images and shared CSS/JS are already prepared; no npm or external font service.
 """
 from pathlib import Path
-import json, html, re, argparse
+import json, html, re, argparse, hashlib
 from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
 PROJECTS = json.loads((ROOT/'source/projects.json').read_text(encoding='utf-8'))
+INTRODUCTIONS = json.loads((ROOT/'source/introductions.json').read_text(encoding='utf-8'))
 SETTINGS_PATH = ROOT/'source/settings.json'
 SETTINGS = json.loads(SETTINGS_PATH.read_text(encoding='utf-8')) if SETTINGS_PATH.exists() else {'formspreeId':'','siteUrl':''}
 EMAIL=SETTINGS.get('email','arina.samysheva@mail.ru')
@@ -41,6 +42,18 @@ def header(prefix='',active=''):
  <a class="brand" href="{prefix}index.html">Арина Самышева</a>
  </div></header>'''
 
+def asset_url(path):
+ # Content hashes prevent in-app browsers from keeping stale navigation CSS/JS.
+ digest = hashlib.sha256((SITE/path).read_bytes()).hexdigest()[:12]
+ return path + '?v=' + digest
+
+def project_intro(project):
+ intro = INTRODUCTIONS[project['slug']]
+ paragraphs = ''.join('<p>'+E(text).replace('\n','<br>')+'</p>' for text in intro['paragraphs'])
+ return ('<section class="project-intro" aria-labelledby="project-title" style="--intro-color:'
+         +E(intro['textColor'])+'"><h1 id="project-title">'+E(project['title'])
+         +'</h1><div class="project-description">'+paragraphs+'</div></section>')
+
 def page(title, description, body, prefix='',kind='',style='',og='',path='index.html',extra_head=''):
  base=SETTINGS.get('siteUrl','').rstrip('/')
  og=og or prefix+'assets/images/share.jpg'
@@ -56,7 +69,7 @@ def page(title, description, body, prefix='',kind='',style='',og='',path='index.
 <meta name="referrer" content="strict-origin-when-cross-origin"><meta name="color-scheme" content="light">
 <meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:image" content="{E(absog)}"><meta name="twitter:card" content="summary_large_image">
 {urlmeta}<link rel="icon" type="image/svg+xml" href="{prefix}assets/images/favicon.svg">
-<link rel="stylesheet" href="{prefix}assets/css/site.css"><script src="{prefix}assets/js/config.js" defer></script><script src="{prefix}assets/js/site.js" defer></script>{structured}{extra_head}
+<link rel="stylesheet" href="{prefix}{asset_url('assets/css/site.css')}"><link rel="stylesheet" href="{prefix}{asset_url('assets/css/project-layout.css')}"><script src="{prefix}{asset_url('assets/js/config.js')}" defer></script><script src="{prefix}{asset_url('assets/js/site.js')}" defer></script>{structured}{extra_head}
 </head><body id="top" class="{kind}"{(' style="'+style+'"') if style else ''}>
 <a class="skip-link" href="#main">Перейти к содержимому</a>
 {body}
@@ -77,7 +90,7 @@ def build():
  for i,p in enumerate(PROJECTS):
   c=p['cover'];load='eager' if i<2 else 'lazy'
   cards.append(f'''<a class="project-card" href="projects/{E(p['slug'])}.html" aria-label="{E(p['title'])}">
-<img src="{E(c['src'])}" srcset="{E(c['small'])} 800w, {E(c['src'])} {c['width']}w" sizes="(max-width: 680px) calc(100vw - 36px), (min-width: 1756px) 738px, 43vw" width="{c['width']}" height="{c['height']}" alt="{E(p['name'])}: {E(p['description'])}" loading="{load}" decoding="async">
+<img src="{E(c['src'])}" srcset="{E(c['small'])} 800w, {E(c['src'])} {c['width']}w" sizes="(max-width: 680px) 100vw, (min-width: 1756px) 738px, 43vw" width="{c['width']}" height="{c['height']}" alt="{E(p['name'])}: {E(p['description'])}" loading="{load}" decoding="async">
 <div class="card-overlay" aria-hidden="true"><h2 class="card-title">{E(p['title'])}</h2></div></a>''')
  works=header(active='works')+'<main class="works-main" id="main"><h1 class="sr-only">Мои работы — Арина Самышева</h1><div class="project-grid">'+''.join(cards)+'</div></main>'+topbutton()
  (SITE/'works.html').write_text(page('Мои работы — Арина Самышева','Девять проектов: айдентика, веб-дизайн, полиграфия, логотипы, социальные сети и иконки.',works,path='works.html'),encoding='utf-8')
@@ -107,7 +120,7 @@ def build():
   nextlink=f'<a class="next" href="{nxt["slug"]}.html"><small>Следующий проект</small>{E(nxt["name"])} →</a>' if nxt else '<span class="next"></span>'
   pager=f'<nav class="project-pager" aria-label="Другие проекты">{prevlink}<a class="all" href="../works.html">Все работы</a>{nextlink}</nav>'
   viewer='''<dialog class="image-viewer" id="image-viewer" aria-label="Просмотр слайда"><div class="viewer-toolbar"><p class="viewer-caption"></p><div class="viewer-controls"><button type="button" data-zoom>Масштаб 100%</button><a data-original target="_blank" rel="noopener">Оригинал ↗</a><button type="button" data-close autofocus>Закрыть ×</button></div></div><div class="viewer-stage"><img alt=""></div></dialog>'''
-  body=header('../',active='works')+f'<main id="main"><h1 class="sr-only">{E(p["title"])}</h1><div class="project-stream">'+''.join(streams)+'</div>'+pager+'</main>'+topbutton()+viewer
+  body=header('../',active='works')+'<main id="main">'+project_intro(p)+'<div class="project-stream">'+''.join(streams)+'</div>'+pager+'</main>'+topbutton()+viewer
   color='#eee7dd' if p['dark'] else '#022a55'
   filename='projects/'+p['slug']+'.html'
   (SITE/filename).write_text(page(p['title']+' — Арина Самышева',p['description'],body,prefix='../',kind='project-page',style=f'--project-bg:{p["background"]};--project-ink:{color}',og='../'+p['cover']['src'],path=filename),encoding='utf-8')

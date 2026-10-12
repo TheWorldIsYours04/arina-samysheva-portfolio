@@ -54,6 +54,22 @@ jobs:
           NAME="${REPOSITORY#*/}"
           python3 source/build.py --site-url "https://${OWNER}.github.io/${NAME}"
           python3 source/check_files.py
+      - name: Install browser regression tools
+        if: steps.import.outputs.ready == 'true'
+        run: |
+          python3 -m pip install playwright==1.57.0
+          python3 -m playwright install --with-deps chromium webkit
+      - name: Test project descriptions and mobile menus in Chromium and WebKit
+        if: steps.import.outputs.ready == 'true'
+        run: python3 tests/ui_regression.py
+      - name: Save browser check report and screenshots
+        if: always() && steps.import.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-regression
+          path: test-results/
+          retention-days: 14
+          if-no-files-found: ignore
       - name: Upload website only, not source code or ZIP packages
         if: steps.import.outputs.ready == 'true'
         uses: actions/upload-pages-artifact@v4
