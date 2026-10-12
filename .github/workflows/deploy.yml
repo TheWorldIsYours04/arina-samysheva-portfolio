@@ -1,0 +1,103 @@
+name: Publish Arina portfolio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Import, validate and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    outputs:
+      ready: ${{ steps.import.outputs.ready }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Import approved files when all upload parts are present
+        id: import
+        run: python3 tools/import_site.py
+      - name: Validate original site and all image references
+        if: steps.import.outputs.ready == 'true'
+        run: python3 source/check_files.py
+      - name: Save imported site as normal editable repository files
+        if: steps.import.outputs.imported == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site source
+          if ! git diff --cached --quiet; then
+            git commit -m 'Import approved portfolio pages and original images'
+            git push origin HEAD:main
+          fi
+      - name: Generate pages, canonical URLs and sitemap
+        if: steps.import.outputs.ready == 'true'
+        env:
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          OWNER="${REPOSITORY_OWNER,,}"
+          NAME="${REPOSITORY#*/}"
+          python3 source/build.py --site-url "https://${OWNER}.github.io/${NAME}"
+          python3 source/check_files.py
+      - name: Upload website only, not source code or ZIP packages
+        if: steps.import.outputs.ready == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: needs.build.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Confirm GitHub Pages configuration
+        uses: actions/configure-pages@v5
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  verify:
+    name: Verify public pages and assets
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout imported source
+        uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Check pages, images, links and contact configuration
+        env:
+          SITE_URL: ${{ needs.deploy.outputs.page_url }}
+        run: python3 tools/check_live.py --base-url "$SITE_URL"
