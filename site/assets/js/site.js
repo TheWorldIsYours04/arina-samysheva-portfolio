@@ -7,7 +7,78 @@
   // Future address changes require editing this one public file, not rebuilding pages.
   const emailConfig = String(cfg.email || '').trim();
   const publicEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailConfig) ? emailConfig : 'arina.samysheva@mail.ru';
-  document.querySelectorAll('a[data-contact-email]').forEach(a => a.setAttribute('href', 'mailto:' + publicEmail));
+  const emailLinks = [...document.querySelectorAll('a[data-contact-email]')];
+  emailLinks.forEach(link => { link.href = 'mailto:' + publicEmail; });
+  // A mailto: link alone can look broken when the visitor has no default mail app.
+  // Keep the native mailto href as a no-JavaScript fallback, but provide an
+  // explicit choice (mail app or copy) for ordinary clicks.
+  if (emailLinks.length && typeof HTMLDialogElement !== 'undefined') {
+    const dialog = document.createElement('dialog');
+    dialog.id = 'email-contact-dialog';
+    dialog.className = 'email-contact-dialog';
+    dialog.setAttribute('aria-labelledby', 'email-contact-dialog-title');
+    dialog.setAttribute('aria-describedby', 'email-contact-dialog-help');
+    dialog.innerHTML = `
+      <button class=\"email-dialog-close\" type=\"button\" data-email-close aria-label=\"Закрыть окно\">&times;</button>
+      <h2 id=\"email-contact-dialog-title\">Написать на почту</h2>
+      <p id=\"email-contact-dialog-help\">Откройте почтовое приложение или скопируйте адрес, чтобы написать с любого почтового сервиса.</p>
+      <input class=\"email-dialog-address\" type=\"text\" readonly aria-label=\"Адрес электронной почты\" data-email-address>
+      <div class=\"email-dialog-actions\">
+        <button class=\"email-dialog-copy\" type=\"button\" data-email-copy>Скопировать адрес</button>
+        <a class=\"email-dialog-mailto\" data-email-mailto>Открыть почтовое приложение</a>
+      </div>
+      <p class=\"email-dialog-feedback\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\" data-email-feedback hidden></p>`;
+    const addressField = dialog.querySelector('[data-email-address]');
+    const mailtoLink = dialog.querySelector('[data-email-mailto]');
+    const copyButton = dialog.querySelector('[data-email-copy]');
+    const feedback = dialog.querySelector('[data-email-feedback]');
+    const closeButton = dialog.querySelector('[data-email-close]');
+    addressField.value = publicEmail;
+    mailtoLink.href = 'mailto:' + publicEmail;
+    document.body.appendChild(dialog);
+    let lastTrigger = null;
+    emailLinks.forEach(link => {
+      link.setAttribute('aria-haspopup', 'dialog');
+      link.setAttribute('aria-controls', dialog.id);
+      link.title = 'Контактная почта: ' + publicEmail;
+      link.addEventListener('click', event => {
+        // Preserve native actions for modified clicks and non-primary buttons.
+        if (event.defaultPrevented || event.button !== 0 || event.ctrlKey ||
+            event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        lastTrigger = link;
+        feedback.hidden = true;
+        feedback.textContent = '';
+        dialog.showModal();
+        copyButton.focus();
+      });
+    });
+    copyButton.addEventListener('click', async () => {
+      let copied = false;
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(publicEmail);
+          copied = true;
+        } catch (_) { /* Fall back to selecting the visible address. */ }
+      }
+      if (!copied) {
+        addressField.focus();
+        addressField.select();
+        try { copied = document.execCommand('copy'); } catch (_) { copied = false; }
+      }
+      feedback.textContent = copied
+        ? 'Адрес скопирован. Вставьте его в вашу почту.'
+        : 'Не удалось скопировать автоматически. Выделите адрес выше и скопируйте вручную.';
+      feedback.hidden = false;
+    });
+    closeButton.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener('close', () => {
+      if (lastTrigger) lastTrigger.focus({preventScroll: true});
+    });
+  }
   const menuButton = document.querySelector('.menu-toggle');
   const menu = document.querySelector('.site-nav');
   const closeMenu = () => {
