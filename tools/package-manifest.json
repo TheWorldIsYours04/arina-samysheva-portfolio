@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "source_archive": "Arina_Portfolio_GitHub_Actions_Ready.zip",
+  "source_sha256": "b69b644f75fe951ae6f95828330ea9311cc46fba40f92d31248fc8d88c8df270",
+  "total_files": 268,
+  "total_uncompressed_bytes": 93285668,
+  "parts": [
+    {
+      "name": "portfolio-part-01.zip",
+      "sha256": "268a29fda190f1a827f2058d37b5522363a2ac123ca04e442da34c9e862b99d6",
+      "archive_bytes": 19624775,
+      "file_count": 61,
+      "uncompressed_bytes": 21852270
+    },
+    {
+      "name": "portfolio-part-02.zip",
+      "sha256": "6f26de06f19dc31d72a2e8f8330786e0daa7a972e5c66f417f5f7e57fa7243a2",
+      "archive_bytes": 19328834,
+      "file_count": 52,
+      "uncompressed_bytes": 21661213
+    },
+    {
+      "name": "portfolio-part-03.zip",
+      "sha256": "0694019b0ddd25ccf0cbbc6ceef752488841a8a60535ac48e2dc52521de8df6c",
+      "archive_bytes": 19591723,
+      "file_count": 65,
+      "uncompressed_bytes": 21918276
+    },
+    {
+      "name": "portfolio-part-04.zip",
+      "sha256": "8176115c9de9a47411469cec19b18be0117f1c92dd901e4c2fe4d95c4e75d493",
+      "archive_bytes": 20054993,
+      "file_count": 56,
+      "uncompressed_bytes": 21906405
+    },
+    {
+      "name": "portfolio-part-05.zip",
+      "sha256": "9d126733c8c856fde1053eaec1354b5c8fd302128d21e16d147f10c71e01806d",
+      "archive_bytes": 5048910,
+      "file_count": 34,
+      "uncompressed_bytes": 5947504
+    }
+  ]
+}
