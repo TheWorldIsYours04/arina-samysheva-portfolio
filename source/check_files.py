@@ -26,6 +26,16 @@ for path in sorted(SITE.rglob('*.html')):
   count+=1
 projects=json.loads((ROOT/'source/projects.json').read_text())
 assert len(projects)==9
+# One editorial paragraph per project: no inconsistent credits, years or software footers.
+introductions=json.loads((ROOT/'source/introductions.json').read_text(encoding='utf-8'))
+assert set(introductions)=={p['slug'] for p in projects},'Missing project introductions'
+for slug, intro in introductions.items():
+ paragraphs=intro.get('paragraphs',[])
+ assert len(paragraphs)==1 and paragraphs[0].strip(),(slug,'One editorial paragraph required')
+ body=paragraphs[0]
+ assert '\n' not in body and '\r' not in body,(slug,'No forced line breaks in intro')
+ for forbidden in ('Арина Самышева','2026','Adobe','Illustrator','Photoshop','Figma','Инструмент'):
+  assert forbidden.casefold() not in body.casefold(),(slug,'Credit/year/tool in introduction:',forbidden)
 for p in projects:
  assert len(p['slides'])>0
  for s in p['slides']:

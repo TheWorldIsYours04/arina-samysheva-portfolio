@@ -53,6 +53,7 @@ def main():
                         expect(page.locator('.project-intro h1')).to_be_visible()
                         expect(page.locator('.project-intro h1')).to_have_text(project['title'])
                         expect(page.locator('.project-description')).to_contain_text(intros[slug]['paragraphs'][0])
+                        assert page.locator('.project-description p').count() == 1
                         assert page.locator('.slide-link').count() == len(project['slides'])
                         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1')
                         assert page.locator('.site-nav a').first.evaluate(
