@@ -1,0 +1,1730 @@
+[
+  {
+    "slug": "illuminati",
+    "title": "Illuminati — Lighting Brand Identity",
+    "name": "Illuminati",
+    "description": "Айдентика магазина дизайнерских светильников",
+    "background": "#111111",
+    "dark": true,
+    "slides": [
+      {
+        "src": "assets/projects/illuminati/01.png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Illuminati. Открывающий экран. Слайд 1 из 14.",
+        "section": "Открывающий экран",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/01.png",
+            "width": 1448
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/02.jpg",
+        "width": 2800,
+        "height": 1600,
+        "alt": "Illuminati. Задача и моя роль. Слайд 2 из 14.",
+        "section": "Задача и моя роль",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/03.jpg",
+        "width": 2800,
+        "height": 1940,
+        "alt": "Illuminati. Концепция светового прохода. Слайд 3 из 14.",
+        "section": "Концепция светового прохода",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/04.jpg",
+        "width": 2800,
+        "height": 2160,
+        "alt": "Illuminati. Логотип и версии знака. Слайд 4 из 14.",
+        "section": "Логотип и версии знака",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/05.jpg",
+        "width": 2800,
+        "height": 2280,
+        "alt": "Illuminati. Сетка и охранное поле. Слайд 5 из 14.",
+        "section": "Сетка и охранное поле",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/06.jpg",
+        "width": 2800,
+        "height": 2460,
+        "alt": "Illuminati. Цвет и типографика. Слайд 6 из 14.",
+        "section": "Цвет и типографика",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/07.jpg",
+        "width": 2800,
+        "height": 1820,
+        "alt": "Illuminati. Фирменный паттерн. Слайд 7 из 14.",
+        "section": "Фирменный паттерн",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/07.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/08.jpg",
+        "width": 2800,
+        "height": 2340,
+        "alt": "Illuminati. Упаковка и информационная наклейка. Слайд 8 из 14.",
+        "section": "Упаковка и информационная наклейка",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/08-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/08-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/08.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/09.jpg",
+        "width": 2800,
+        "height": 3020,
+        "alt": "Illuminati. Корпоративная и персональная визитки. Слайд 9 из 14.",
+        "section": "Корпоративная и персональная визитки",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/09-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/09-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/09.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/10.jpg",
+        "width": 2800,
+        "height": 4940,
+        "alt": "Illuminati. Социальные сети и обложка сообщества. Слайд 10 из 14.",
+        "section": "Социальные сети и обложка сообщества",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/10-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/10-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/10.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/11.jpg",
+        "width": 2800,
+        "height": 2420,
+        "alt": "Illuminati. Оформление витрины. Слайд 11 из 14.",
+        "section": "Оформление витрины",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/11-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/11-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/11.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/12.jpg",
+        "width": 2800,
+        "height": 2220,
+        "alt": "Illuminati. Два варианта униформы. Слайд 12 из 14.",
+        "section": "Два варианта униформы",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/12-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/12-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/12.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/13.jpg",
+        "width": 2800,
+        "height": 2580,
+        "alt": "Illuminati. Руководство по фирменному стилю. Слайд 13 из 14.",
+        "section": "Руководство по фирменному стилю",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/13-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/13-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/illuminati/13.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/illuminati/14.png",
+        "width": 1492,
+        "height": 1054,
+        "alt": "Illuminati. Итог и авторство. Слайд 14 из 14.",
+        "section": "Итог и авторство",
+        "variants": [
+          {
+            "src": "assets/projects/illuminati/14-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/illuminati/14.png",
+            "width": 1492
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/illuminati/cover.jpg",
+      "small": "assets/projects/illuminati/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "open-type-festival",
+    "title": "Open Type Festival — Leaflet & Poster Design",
+    "name": "Open Type Festival",
+    "description": "Типографический плакат и программа фестиваля",
+    "background": "#F3F2EE",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/open-type-festival/01.jpg",
+        "width": 2800,
+        "height": 2200,
+        "alt": "Open Type Festival. Open Type Festival. Слайд 1 из 9.",
+        "section": "Open Type Festival",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/02.jpg",
+        "width": 2800,
+        "height": 1760,
+        "alt": "Open Type Festival. Эксперимент и система. Слайд 2 из 9.",
+        "section": "Эксперимент и система",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/03.jpg",
+        "width": 2800,
+        "height": 3340,
+        "alt": "Open Type Festival. Лифлет как плакат. Слайд 3 из 9.",
+        "section": "Лифлет как плакат",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/04.jpg",
+        "width": 2800,
+        "height": 2220,
+        "alt": "Open Type Festival. Графический язык. Слайд 4 из 9.",
+        "section": "Графический язык",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/05.jpg",
+        "width": 2800,
+        "height": 2760,
+        "alt": "Open Type Festival. Три зала — три колонки. Слайд 5 из 9.",
+        "section": "Три зала — три колонки",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/06.jpg",
+        "width": 2800,
+        "height": 2140,
+        "alt": "Open Type Festival. Цвет ведёт, время выделяет. Слайд 6 из 9.",
+        "section": "Цвет ведёт, время выделяет",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/07.jpg",
+        "width": 2800,
+        "height": 2320,
+        "alt": "Open Type Festival. Один характер, разные роли. Слайд 7 из 9.",
+        "section": "Один характер, разные роли",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/07.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/08.jpg",
+        "width": 2800,
+        "height": 2800,
+        "alt": "Open Type Festival. От композиции к цельному макету. Слайд 8 из 9.",
+        "section": "От композиции к цельному макету",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/08-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/08-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/08.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/open-type-festival/09.jpg",
+        "width": 2800,
+        "height": 2080,
+        "alt": "Open Type Festival. Спасибо за внимание. Слайд 9 из 9.",
+        "section": "Спасибо за внимание",
+        "variants": [
+          {
+            "src": "assets/projects/open-type-festival/09-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/open-type-festival/09-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/open-type-festival/09.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/open-type-festival/cover.jpg",
+      "small": "assets/projects/open-type-festival/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "bosch",
+    "title": "Bosch — Book Landing Page & Responsive Web Design",
+    "name": "Таинственный Босх",
+    "description": "Десктопная и мобильная версии лендинга для книги",
+    "background": "#0E100D",
+    "dark": true,
+    "slides": [
+      {
+        "src": "assets/projects/bosch/01.png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Таинственный Босх. Таинственный Босх. Слайд 1 из 11.",
+        "section": "Таинственный Босх",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/01.png",
+            "width": 1448
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/02.jpg",
+        "width": 2800,
+        "height": 2060,
+        "alt": "Таинственный Босх. О проекте. Слайд 2 из 11.",
+        "section": "О проекте",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/03.jpg",
+        "width": 2800,
+        "height": 2200,
+        "alt": "Таинственный Босх. Картины становятся частью интерфейса. Слайд 3 из 11.",
+        "section": "Картины становятся частью интерфейса",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/04.jpg",
+        "width": 2800,
+        "height": 2340,
+        "alt": "Таинственный Босх. Цвет и типографика. Слайд 4 из 11.",
+        "section": "Цвет и типографика",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/05.jpg",
+        "width": 2800,
+        "height": 2080,
+        "alt": "Таинственный Босх. Сценарий страницы. Слайд 5 из 11.",
+        "section": "Сценарий страницы",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/06.jpg",
+        "width": 2800,
+        "height": 4050,
+        "alt": "Таинственный Босх. Десктоп: первый экран и книга. Слайд 6 из 11.",
+        "section": "Десктоп: первый экран и книга",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/07.jpg",
+        "width": 2800,
+        "height": 3500,
+        "alt": "Таинственный Босх. Десктоп: художник и содержание. Слайд 7 из 11.",
+        "section": "Десктоп: художник и содержание",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/07.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/08.jpg",
+        "width": 2800,
+        "height": 3760,
+        "alt": "Таинственный Босх. Десктоп: отзывы и предзаказ. Слайд 8 из 11.",
+        "section": "Десктоп: отзывы и предзаказ",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/08-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/08-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/08.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/09.jpg",
+        "width": 2800,
+        "height": 2800,
+        "alt": "Таинственный Босх. Адаптация композиции. Слайд 9 из 11.",
+        "section": "Адаптация композиции",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/09-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/09-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/09.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/10.jpg",
+        "width": 2800,
+        "height": 3760,
+        "alt": "Таинственный Босх. Мобильная версия целиком. Слайд 10 из 11.",
+        "section": "Мобильная версия целиком",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/10-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/10-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/10.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/bosch/11.jpg",
+        "width": 2800,
+        "height": 1900,
+        "alt": "Таинственный Босх. Арина Самышева / 2026. Слайд 11 из 11.",
+        "section": "Арина Самышева / 2026",
+        "variants": [
+          {
+            "src": "assets/projects/bosch/11-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/bosch/11-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/bosch/11.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/bosch/cover.png",
+      "small": "assets/projects/bosch/cover-800.webp",
+      "width": 1419,
+      "height": 1108
+    }
+  },
+  {
+    "slug": "little-bakery",
+    "title": "Маленькая пекарня — дизайн логотипа",
+    "name": "Маленькая пекарня",
+    "description": "Логотип для сети кафе. Концепция «Тёплое окно»",
+    "background": "#1F1F1F",
+    "dark": true,
+    "slides": [
+      {
+        "src": "assets/projects/little-bakery/01.jpg",
+        "width": 2800,
+        "height": 2380,
+        "alt": "Маленькая пекарня. Первое впечатление. Слайд 1 из 9.",
+        "section": "Первое впечатление",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/02.jpg",
+        "width": 2800,
+        "height": 2600,
+        "alt": "Маленькая пекарня. Идея знака. Слайд 2 из 9.",
+        "section": "Идея знака",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/03.jpg",
+        "width": 2800,
+        "height": 2400,
+        "alt": "Маленькая пекарня. Композиции логотипа. Слайд 3 из 9.",
+        "section": "Композиции логотипа",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/04.jpg",
+        "width": 2800,
+        "height": 2520,
+        "alt": "Маленькая пекарня. Цветовые версии. Слайд 4 из 9.",
+        "section": "Цветовые версии",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/05.jpg",
+        "width": 2800,
+        "height": 2540,
+        "alt": "Маленькая пекарня. Построение и охранное поле. Слайд 5 из 9.",
+        "section": "Построение и охранное поле",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/06.jpg",
+        "width": 2800,
+        "height": 2690,
+        "alt": "Маленькая пекарня. Вывеска и пакет. Слайд 6 из 9.",
+        "section": "Вывеска и пакет",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/07.jpg",
+        "width": 2800,
+        "height": 2320,
+        "alt": "Маленькая пекарня. Стакан и упаковка. Слайд 7 из 9.",
+        "section": "Стакан и упаковка",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/07.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/08.jpg",
+        "width": 2800,
+        "height": 2420,
+        "alt": "Маленькая пекарня. Цифровое применение. Слайд 8 из 9.",
+        "section": "Цифровое применение",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/08-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/08-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/08.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/little-bakery/09.jpg",
+        "width": 2800,
+        "height": 2020,
+        "alt": "Маленькая пекарня. Завершение. Слайд 9 из 9.",
+        "section": "Завершение",
+        "variants": [
+          {
+            "src": "assets/projects/little-bakery/09-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/little-bakery/09-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/little-bakery/09.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/little-bakery/cover.jpg",
+      "small": "assets/projects/little-bakery/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "moscow-fjord",
+    "title": "Moscow Fjord — соцсети и презентация",
+    "name": "Moscow Fjord",
+    "description": "Социальные публикации и презентация мебельной студии",
+    "background": "#F3EEE8",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/moscow-fjord/01.jpg",
+        "width": 2800,
+        "height": 2720,
+        "alt": "Moscow Fjord. Общий вид публикаций. Слайд 1 из 8.",
+        "section": "Общий вид публикаций",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/02.jpg",
+        "width": 2800,
+        "height": 2640,
+        "alt": "Moscow Fjord. Визуальный подход. Слайд 2 из 8.",
+        "section": "Визуальный подход",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/03.jpg",
+        "width": 2800,
+        "height": 3190,
+        "alt": "Moscow Fjord. Квадратная публикация. Слайд 3 из 8.",
+        "section": "Квадратная публикация",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/04.jpg",
+        "width": 2800,
+        "height": 3340,
+        "alt": "Moscow Fjord. Вертикальная адаптация. Слайд 4 из 8.",
+        "section": "Вертикальная адаптация",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/05.png",
+        "width": 2800,
+        "height": 2680,
+        "alt": "Moscow Fjord. Презентация: страницы 01–04. Слайд 5 из 8.",
+        "section": "Презентация: страницы 01–04",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/05.png",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/06.png",
+        "width": 2800,
+        "height": 2680,
+        "alt": "Moscow Fjord. Презентация: страницы 05–08. Слайд 6 из 8.",
+        "section": "Презентация: страницы 05–08",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/06.png",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/07.png",
+        "width": 2800,
+        "height": 3600,
+        "alt": "Moscow Fjord. Презентация: страницы 09–10. Слайд 7 из 8.",
+        "section": "Презентация: страницы 09–10",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/07.png",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moscow-fjord/08.png",
+        "width": 2800,
+        "height": 2300,
+        "alt": "Moscow Fjord. Авторство и завершение. Слайд 8 из 8.",
+        "section": "Авторство и завершение",
+        "variants": [
+          {
+            "src": "assets/projects/moscow-fjord/08-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moscow-fjord/08-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moscow-fjord/08.png",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/moscow-fjord/cover.jpg",
+      "small": "assets/projects/moscow-fjord/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "digital-environment",
+    "title": "Цифровая среда — плакаты и билборд",
+    "name": "Цифровая среда",
+    "description": "Серия плакатов и билборд для дизайн-митапа",
+    "background": "#0E0000",
+    "dark": true,
+    "slides": [
+      {
+        "src": "assets/projects/digital-environment/01.jpg",
+        "width": 2800,
+        "height": 2980,
+        "alt": "Цифровая среда. Серия целиком. Слайд 1 из 7.",
+        "section": "Серия целиком",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/digital-environment/02.jpg",
+        "width": 2800,
+        "height": 2480,
+        "alt": "Цифровая среда. Визуальная концепция. Слайд 2 из 7.",
+        "section": "Визуальная концепция",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/digital-environment/03.jpg",
+        "width": 2800,
+        "height": 4300,
+        "alt": "Цифровая среда. Плакат: анонс. Слайд 3 из 7.",
+        "section": "Плакат: анонс",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/digital-environment/04.jpg",
+        "width": 2800,
+        "height": 4300,
+        "alt": "Цифровая среда. Плакат: спикеры. Слайд 4 из 7.",
+        "section": "Плакат: спикеры",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/digital-environment/05.jpg",
+        "width": 2800,
+        "height": 2580,
+        "alt": "Цифровая среда. Билборд. Слайд 5 из 7.",
+        "section": "Билборд",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/digital-environment/06.jpg",
+        "width": 2800,
+        "height": 2940,
+        "alt": "Цифровая среда. Типографика и сетка. Слайд 6 из 7.",
+        "section": "Типографика и сетка",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/digital-environment/07.jpg",
+        "width": 2800,
+        "height": 2120,
+        "alt": "Цифровая среда. Завершение. Слайд 7 из 7.",
+        "section": "Завершение",
+        "variants": [
+          {
+            "src": "assets/projects/digital-environment/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/digital-environment/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/digital-environment/07.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/digital-environment/cover.jpg",
+      "small": "assets/projects/digital-environment/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "japanese-houses",
+    "title": "Японские традиционные дома — дизайн статьи",
+    "name": "Японские традиционные дома",
+    "description": "Редакционный дизайн статьи для медиасайта",
+    "background": "#F5F2ED",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/japanese-houses/01.jpg",
+        "width": 2800,
+        "height": 2740,
+        "alt": "Японские традиционные дома. Обложка кейса. Слайд 1 из 7.",
+        "section": "Обложка кейса",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/japanese-houses/02.jpg",
+        "width": 2800,
+        "height": 2260,
+        "alt": "Японские традиционные дома. Задача и редакционный подход. Слайд 2 из 7.",
+        "section": "Задача и редакционный подход",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/japanese-houses/03.jpg",
+        "width": 2800,
+        "height": 2420,
+        "alt": "Японские традиционные дома. Цвет и типографика. Слайд 3 из 7.",
+        "section": "Цвет и типографика",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/japanese-houses/04.jpg",
+        "width": 2800,
+        "height": 2484,
+        "alt": "Японские традиционные дома. Статья: начало. Слайд 4 из 7.",
+        "section": "Статья: начало",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/japanese-houses/05.jpg",
+        "width": 2800,
+        "height": 2854,
+        "alt": "Японские традиционные дома. Статья: основная часть. Слайд 5 из 7.",
+        "section": "Статья: основная часть",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/japanese-houses/06.jpg",
+        "width": 2800,
+        "height": 3144,
+        "alt": "Японские традиционные дома. Статья: завершение. Слайд 6 из 7.",
+        "section": "Статья: завершение",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/japanese-houses/07.jpg",
+        "width": 2800,
+        "height": 1780,
+        "alt": "Японские традиционные дома. Автор и завершение. Слайд 7 из 7.",
+        "section": "Автор и завершение",
+        "variants": [
+          {
+            "src": "assets/projects/japanese-houses/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/japanese-houses/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/japanese-houses/07.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/japanese-houses/cover.jpg",
+      "small": "assets/projects/japanese-houses/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "moksha",
+    "title": "Мокша — дизайн металлической бутылки",
+    "name": "Мокша",
+    "description": "Оформление металлической бутылки для заповедника",
+    "background": "#EDF1F0",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/moksha/01.jpg",
+        "width": 2800,
+        "height": 2620,
+        "alt": "Мокша. Первое впечатление. Слайд 1 из 6.",
+        "section": "Первое впечатление",
+        "variants": [
+          {
+            "src": "assets/projects/moksha/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moksha/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moksha/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moksha/02.jpg",
+        "width": 2800,
+        "height": 2500,
+        "alt": "Мокша. Концепция принта. Слайд 2 из 6.",
+        "section": "Концепция принта",
+        "variants": [
+          {
+            "src": "assets/projects/moksha/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moksha/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moksha/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moksha/03.jpg",
+        "width": 2800,
+        "height": 2800,
+        "alt": "Мокша. Развёртка. Слайд 3 из 6.",
+        "section": "Развёртка",
+        "variants": [
+          {
+            "src": "assets/projects/moksha/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moksha/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moksha/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moksha/04.jpg",
+        "width": 2800,
+        "height": 2640,
+        "alt": "Мокша. Слоган и форма. Слайд 4 из 6.",
+        "section": "Слоган и форма",
+        "variants": [
+          {
+            "src": "assets/projects/moksha/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moksha/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moksha/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moksha/05.jpg",
+        "width": 2800,
+        "height": 2960,
+        "alt": "Мокша. Четыре ракурса. Слайд 5 из 6.",
+        "section": "Четыре ракурса",
+        "variants": [
+          {
+            "src": "assets/projects/moksha/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moksha/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moksha/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/moksha/06.jpg",
+        "width": 2800,
+        "height": 2100,
+        "alt": "Мокша. Завершение. Слайд 6 из 6.",
+        "section": "Завершение",
+        "variants": [
+          {
+            "src": "assets/projects/moksha/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/moksha/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/moksha/06.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/moksha/cover.jpg",
+      "small": "assets/projects/moksha/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  },
+  {
+    "slug": "book-icons",
+    "title": "Книжные категории — система иконок",
+    "name": "Книжные категории",
+    "description": "Три символа — одна система книжных категорий",
+    "background": "#F5F4F0",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/book-icons/01.jpg",
+        "width": 2800,
+        "height": 2260,
+        "alt": "Книжные категории. Система иконок. Слайд 1 из 5.",
+        "section": "Система иконок",
+        "variants": [
+          {
+            "src": "assets/projects/book-icons/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/book-icons/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/book-icons/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/book-icons/02.jpg",
+        "width": 2800,
+        "height": 2340,
+        "alt": "Книжные категории. Визуальные метафоры. Слайд 2 из 5.",
+        "section": "Визуальные метафоры",
+        "variants": [
+          {
+            "src": "assets/projects/book-icons/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/book-icons/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/book-icons/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/book-icons/03.jpg",
+        "width": 2800,
+        "height": 2340,
+        "alt": "Книжные категории. Построение. Слайд 3 из 5.",
+        "section": "Построение",
+        "variants": [
+          {
+            "src": "assets/projects/book-icons/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/book-icons/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/book-icons/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/book-icons/04.jpg",
+        "width": 2800,
+        "height": 2280,
+        "alt": "Книжные категории. Детали и масштаб. Слайд 4 из 5.",
+        "section": "Детали и масштаб",
+        "variants": [
+          {
+            "src": "assets/projects/book-icons/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/book-icons/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/book-icons/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/book-icons/05.jpg",
+        "width": 2800,
+        "height": 1680,
+        "alt": "Книжные категории. Завершение. Слайд 5 из 5.",
+        "section": "Завершение",
+        "variants": [
+          {
+            "src": "assets/projects/book-icons/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/book-icons/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/book-icons/05.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/book-icons/cover.jpg",
+      "small": "assets/projects/book-icons/cover-800.webp",
+      "width": 1616,
+      "height": 1264
+    }
+  }
+]
