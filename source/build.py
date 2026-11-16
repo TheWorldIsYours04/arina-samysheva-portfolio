@@ -82,9 +82,12 @@ def build():
  SITE.mkdir(exist_ok=True)
  home='''<main class="welcome" id="main">
 <img class="welcome-photo" src="assets/images/welcome.webp" width="1672" height="941" alt="" fetchpriority="high">
-<div class="welcome-content"><h1>Арина Самышева</h1><p class="welcome-role">Графический дизайнер</p>
-<p class="welcome-description">Создаю айдентику и визуальные проекты для цифровой и печатной среды.</p>
-<a class="primary-button" href="works.html">Смотреть работы</a>'''+social(['behance','email'])+'</div></main>'
+<div class="welcome-content">
+<div class="welcome-intro"><h1>Арина Самышева</h1>
+<p class="welcome-description">Я — графический дизайнер, который любит превращать идеи в яркие и продуманные визуальные решения. Создаю айдентику, рекламные кампании, digital-креативы, материалы для социальных сетей, e-commerce и полиграфию. В каждом проекте стремлюсь найти нестандартный подход, сочетая эстетику, функциональность и задачи бренда. Внимательна к деталям и умею доводить идею от первых набросков до готового результата.</p>
+<div class="welcome-actions"><a class="primary-button" href="works.html">Смотреть работы</a>'''+social(['behance','email'])+'''</div></div>
+<img class="welcome-portrait" src="assets/images/arina-portrait.jpg" width="959" height="1280" alt="Портрет Арины Самышевой">
+</div></main>'''
  (SITE/'index.html').write_text(page('Арина Самышева — графический дизайнер','Айдентика, веб-дизайн и печатная графика. Портфолио графического дизайнера Арины Самышевой.',home,kind='home'),encoding='utf-8')
  cards=[]
  for i,p in enumerate(PROJECTS):

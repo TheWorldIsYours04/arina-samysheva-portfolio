@@ -39,23 +39,34 @@ img { max-width: 100%; }
 .menu-toggle svg { width: 24px; height: 24px; }
 /* Welcome */
 .home { background: #f3ecdf; }
-.welcome { position: relative; isolation: isolate; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 64px 24px; }
+.welcome {
+  position: relative; isolation: isolate; min-height: 100vh; min-height: 100svh;
+  display: grid; place-items: center;
+  padding-block: 64px; padding-inline: clamp(30px, 5vw, 90px) clamp(42px, 14vw, 225px);
+}
 .welcome-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; z-index: -2; }
-.welcome-content { text-align: center; width: min(940px, 100%); position: relative; }
-.welcome h1 { margin: 0 0 24px; font-size: clamp(40px, 4.2vw, 60px); font-weight: 700; letter-spacing: -.022em; line-height: 1.12; color: var(--ink); }
-.welcome-role { font-size: 20px; line-height: 1.45; margin: 0 0 8px; color: var(--muted); }
-.welcome-description { max-width: 880px; margin: 0 auto; font-size: 20px; line-height: 1.5; color: var(--muted); }
+.welcome-content {
+  display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 505px);
+  grid-template-areas: "portrait intro"; align-items: center;
+  gap: clamp(28px, 4vw, 64px); width: min(909px, 100%);
+}
+.welcome-intro { grid-area: intro; }
+.welcome-portrait {
+  grid-area: portrait; display: block; width: 100%; height: auto;
+  border-radius: 12px; box-shadow: 0 18px 42px rgba(53, 38, 25, .14);
+}
+.welcome h1 { margin: 0 0 20px; font-size: clamp(37px, 3.75vw, 58px); font-weight: 700; letter-spacing: -.025em; line-height: 1.12; color: var(--ink); }
+.welcome-description { margin: 0; font-size: 18px; line-height: 1.6; color: #494640; }
+.welcome-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 18px; margin-top: 28px; }
 .primary-button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 11px 25px; border: 1px solid transparent; border-radius: 8px; background: var(--ink); color: var(--white); font-size: 16px; font-weight: 700; line-height: 1.35; text-decoration: none; transition: background-color .18s, opacity .18s; }
 .primary-button:hover { background: var(--ink-hover); }
 .primary-button:active { opacity: .88; }
 .primary-button:disabled { cursor: wait; opacity: .66; }
-.welcome .primary-button { margin-top: 36px; }
 .social-links { display: flex; align-items: center; justify-content: center; gap: 8px; }
 .social-link { width: 44px; height: 44px; display: inline-flex; justify-content: center; align-items: center; color: var(--ink); text-decoration: none; border-radius: 50%; transition: opacity .18s; }
 .social-link svg { width: 25px; height: 25px; fill: currentColor; display: block; }
 .social-link .email-icon { width: 23px; height: 23px; }
 .social-link:hover { opacity: .65; }
-.welcome .social-links { margin-top: 30px; }
 /* Email icon fallback: the modal works even when no mailto: handler is configured. */
 .email-contact-dialog {
   position: fixed; inset: 0; width: min(460px, calc(100vw - 32px)); max-height: calc(100vh - 32px);
@@ -151,8 +162,11 @@ img { max-width: 100%; }
 .viewer-stage.is-zoomed img { width: auto; max-width: none; margin: 0; }
 .not-found { min-height: calc(100svh - var(--header-height)); display: grid; place-content: center; text-align: center; gap: 20px; padding: 32px; }
 .not-found h1 { font-size: 46px; margin: 0; }.not-found p {color: var(--muted); margin: 0;}
-@media (min-width: 1920px) { .welcome h1 { font-size: 64px; } }
-@media (max-width: 900px) { .header-inner { padding-inline: 28px; }.site-nav { gap: 22px; }.brand{font-size:20px;}.site-nav a{font-size:16px;}.works-main{width:calc(100% - 56px);} .card-title{font-size:20px;} .welcome-content {max-width: 760px;} }
+@media (max-width: 900px) {
+ .header-inner { padding-inline: 28px; }.site-nav { gap: 22px; }.brand{font-size:20px;}.site-nav a{font-size:16px;}.works-main{width:calc(100% - 56px);} .card-title{font-size:20px;}
+ .welcome { padding-inline: 32px; }
+ .welcome-content { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); }
+}
 @media (max-width: 680px) {
  :root {--header-height:64px;--gallery-gap:20px;}
  .header-inner {padding-inline:18px; gap:16px;}
@@ -162,13 +176,14 @@ img { max-width: 100%; }
  .site-nav a{padding:14px 8px;font-size:18px;}
  .site-nav.is-open{display:flex;}
  .no-js .site-header{height:auto;}.no-js .header-inner{flex-wrap:wrap;padding-block:10px;}.no-js .site-nav{display:flex;position:static;flex-direction:row;flex-wrap:wrap;padding:0;border:0;order:2;}.no-js .menu-toggle{display:none;}
- .welcome{padding:64px 26px;}
- .welcome-photo{object-position:42% 50%;}
- .welcome h1{font-size:40px;line-height:1.15;max-width:360px;margin:0 auto 22px;}
- .welcome-role{font-size:18px;margin-bottom:12px;}
- .welcome-description{font-size:17px;line-height:1.55;max-width:350px;}
- .welcome .primary-button{margin-top:30px;min-height:48px;}
- .welcome .social-links{margin-top:24px;}
+ .welcome{padding:38px 26px 36px;}
+ .welcome-photo{object-position:44% 50%;}
+ .welcome-content{grid-template-columns:minmax(0, 1fr);grid-template-areas:"intro" "portrait";width:min(420px, 100%);gap:24px;}
+ .welcome h1{font-size:clamp(30px, 8.8vw, 40px);line-height:1.12;margin:0 0 16px;}
+ .welcome-description{font-size:16px;line-height:1.55;}
+ .welcome-actions{margin-top:21px;gap:8px 10px;}
+ .welcome .primary-button{min-height:48px;}
+ .welcome-portrait{width:min(100%, 360px);justify-self:start;}
  .works-main{width:calc(100% - 36px);padding-top:26px;padding-bottom:40px;}
  .project-grid{grid-template-columns:1fr;}
  .card-title{font-size:20px;}
@@ -184,5 +199,5 @@ img { max-width: 100%; }
  .project-pager .prev{grid-column:1;}.project-pager .next{grid-column:2;}
  .viewer-toolbar{padding:8px 12px;}.viewer-caption{display:none;}.viewer-controls{width:100%;justify-content:space-between;}.viewer-controls button,.viewer-controls a{font-size:13px;padding:8px;}
 }
-@media (max-width: 360px) { .welcome h1{font-size:36px;} .welcome{padding-inline:22px;} }
+@media (max-width: 360px) { .welcome{padding-inline:20px;} }
 @media (prefers-reduced-motion: reduce) {html{scroll-behavior:auto;}*,*::before,*::after{animation:none!important;transition:none!important;} }
