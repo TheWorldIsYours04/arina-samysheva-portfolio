@@ -93,7 +93,7 @@ def build():
 <img src="{E(c['src'])}" srcset="{E(c['small'])} 800w, {E(c['src'])} {c['width']}w" sizes="(max-width: 680px) 100vw, (min-width: 1756px) 738px, 43vw" width="{c['width']}" height="{c['height']}" alt="{E(p['name'])}: {E(p['description'])}" loading="{load}" decoding="async">
 <div class="card-overlay" aria-hidden="true"><h2 class="card-title">{E(p['title'])}</h2></div></a>''')
  works=header(active='works')+'<main class="works-main" id="main"><h1 class="sr-only">Мои работы — Арина Самышева</h1><div class="project-grid">'+''.join(cards)+'</div></main>'+topbutton()
- (SITE/'works.html').write_text(page('Мои работы — Арина Самышева','Девять проектов: айдентика, веб-дизайн, полиграфия, логотипы, социальные сети и иконки.',works,path='works.html'),encoding='utf-8')
+ (SITE/'works.html').write_text(page('Мои работы — Арина Самышева','Проекты по айдентике, веб-дизайну, рекламе, полиграфии и информационной графике.',works,path='works.html'),encoding='utf-8')
  rows=[]
  labels=[('name','Имя','Как к вам обращаться?','text','name',100),('email','Электронная почта','example@mail.com','email','email',254),('message','Сообщение','Расскажите о вашем предложении...','textarea','off',5000)]
  for key,label,placeholder,typ,auto,length in labels:
@@ -138,7 +138,7 @@ def build():
   paths=['','works.html','contact.html']+['projects/'+p['slug']+'.html' for p in PROJECTS]
   sitemap.write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+'/'+x)+'</loc></url>' for x in paths)+'</urlset>')
  elif sitemap.exists():sitemap.unlink()
- print('Built: 12 main pages + 404. No network, no publication, no mail sent.')
+ print(f'Built: {len(PROJECTS) + 3} main pages + 404. No network, no publication, no mail sent.')
 
 def configure(args):
  if args.form_id is not None:

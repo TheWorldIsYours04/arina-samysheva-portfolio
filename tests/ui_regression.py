@@ -74,7 +74,7 @@ def main():
                             button.tap()
                             nav.get_by_role('link', name='Мои работы', exact=True).tap()
                             page.wait_for_url('**/works.html')
-                            assert page.locator('.project-card').count() == 9
+                            expect(page.locator('.project-card')).to_have_count(len(projects))
                             page.go_back(wait_until='load')
                             expect(page.locator('.site-nav')).not_to_be_visible()
                             page.locator('.menu-toggle').tap()

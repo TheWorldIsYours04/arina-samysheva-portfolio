@@ -1,5 +1,389 @@
 [
   {
+    "slug": "icloud",
+    "title": "iCloud — Время обновиться | Banner & Flyer Design",
+    "name": "iCloud",
+    "description": "Рекламный баннер и листовка для сети магазинов техники iCloud",
+    "background": "#0B090A",
+    "dark": true,
+    "slides": [
+      {
+        "src": "assets/projects/icloud/01.jpg",
+        "width": 2800,
+        "height": 2160,
+        "alt": "Первый экран кейса «Время обновиться» с крупным планом бордового телефона под отрывной полосой.",
+        "section": "Первый экран",
+        "variants": [
+          {
+            "src": "assets/projects/icloud/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/icloud/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/icloud/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/icloud/02.jpg",
+        "width": 2800,
+        "height": 1608,
+        "alt": "Крупный план рваного края полосы и загнутого бумажного язычка с зелёной стрелкой.",
+        "section": "Идея и детали",
+        "variants": [
+          {
+            "src": "assets/projects/icloud/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/icloud/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/icloud/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/icloud/03.jpg",
+        "width": 2800,
+        "height": 2910,
+        "alt": "Квадратный рекламный баннер iCloud со слоганом «Время обновиться».",
+        "section": "Рекламный баннер",
+        "variants": [
+          {
+            "src": "assets/projects/icloud/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/icloud/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/icloud/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/icloud/04.jpg",
+        "width": 2800,
+        "height": 2290,
+        "alt": "Вертикальная листовка iCloud с преимуществами магазина, QR-кодом и параметрами печати A5.",
+        "section": "Печатная листовка",
+        "variants": [
+          {
+            "src": "assets/projects/icloud/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/icloud/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/icloud/04.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/icloud/cover.jpg",
+      "width": 1616,
+      "height": 1264,
+      "small": "assets/projects/icloud/cover-800.webp"
+    }
+  },
+  {
+    "slug": "volgograd-nature-parks",
+    "title": "Природные парки Волгоградской области | Posters",
+    "name": "Природные парки Волгоградской области",
+    "description": "Серия из пяти информационных плакатов о природных парках Волгоградской области",
+    "background": "#F2F0E3",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/volgograd-nature-parks/01.jpg",
+        "width": 2800,
+        "height": 1856,
+        "alt": "Пять квадратных плакатов о природных парках Волгоградской области на тёмно-зелёном фоне.",
+        "section": "Вся серия",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/02.jpg",
+        "width": 2800,
+        "height": 1964,
+        "alt": "Волжские обрывы, жук-олень с подписью и карта Волго-Ахтубинской поймы крупным планом.",
+        "section": "Композиция плакатов",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/03.jpg",
+        "width": 2800,
+        "height": 2752,
+        "alt": "Плакат о Волго-Ахтубинской пойме с пейзажем на закате, орланом-белохвостом, лотосом, кряквой и картой.",
+        "section": "Волго-Ахтубинская пойма",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/04.jpg",
+        "width": 2800,
+        "height": 2752,
+        "alt": "Плакат об Эльтонском парке с пейзажем солёного озера, шилоклювкой, журавлём-красавкой, сайгаком и картой.",
+        "section": "Эльтонский парк",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/04.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/05.jpg",
+        "width": 2800,
+        "height": 2752,
+        "alt": "Плакат о Донском парке с меловыми утёсами, дрофой, ковылём, бабочкой мнемозиной и картой.",
+        "section": "Донской парк",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/05-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/05-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/05.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/06.jpg",
+        "width": 2800,
+        "height": 2752,
+        "alt": "Плакат о Щербаковском парке с волжскими обрывами, филином, сурком-байбаком, карликовым ирисом и картой.",
+        "section": "Щербаковский парк",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/06-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/06-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/06.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/07.jpg",
+        "width": 2800,
+        "height": 2752,
+        "alt": "Плакат о Нижнехопёрском парке с речным пейзажем, выхухолью, жуком-оленем, кувшинкой и картой.",
+        "section": "Нижнехопёрский парк",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/07-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/07-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/07.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/volgograd-nature-parks/08.jpg",
+        "width": 2800,
+        "height": 1410,
+        "alt": "Обрезной формат 680 × 680 мм, вылеты 3 мм и формат файла PDF/X-4. Дизайн Арины Самышевой.",
+        "section": "Подготовка к печати",
+        "variants": [
+          {
+            "src": "assets/projects/volgograd-nature-parks/08-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/08-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/volgograd-nature-parks/08.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/volgograd-nature-parks/cover.jpg",
+      "width": 1616,
+      "height": 1264,
+      "small": "assets/projects/volgograd-nature-parks/cover-800.webp"
+    }
+  },
+  {
+    "slug": "dutybox-grass",
+    "title": "DUTYBOX / GRASS — Маленькая капсула, полный флакон",
+    "name": "DUTYBOX / GRASS",
+    "description": "Рекламный баннер DUTYBOX для концентрата мыла-пенки",
+    "background": "#F6FBFE",
+    "dark": false,
+    "slides": [
+      {
+        "src": "assets/projects/dutybox-grass/01.jpg",
+        "width": 2800,
+        "height": 1820,
+        "alt": "Флакон с пенным дозатором и голубая капсула DUTYBOX на светлом фоне рядом с заголовком проекта.",
+        "section": "Первый экран",
+        "variants": [
+          {
+            "src": "assets/projects/dutybox-grass/01-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/dutybox-grass/01-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/dutybox-grass/01.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/dutybox-grass/02.jpg",
+        "width": 2800,
+        "height": 2044,
+        "alt": "Горизонтальный баннер DUTYBOX с заголовком, инструкцией и преимуществами слева и изображениями продуктов справа.",
+        "section": "Рекламный баннер",
+        "variants": [
+          {
+            "src": "assets/projects/dutybox-grass/02-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/dutybox-grass/02-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/dutybox-grass/02.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/dutybox-grass/03.jpg",
+        "width": 2800,
+        "height": 1490,
+        "alt": "Три карточки приготовления мыла-пенки: налей воды, добавь концентрат и встряхни.",
+        "section": "Инструкция в три шага",
+        "variants": [
+          {
+            "src": "assets/projects/dutybox-grass/03-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/dutybox-grass/03-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/dutybox-grass/03.jpg",
+            "width": 2800
+          }
+        ]
+      },
+      {
+        "src": "assets/projects/dutybox-grass/04.jpg",
+        "width": 2800,
+        "height": 2010,
+        "alt": "Пять цветов из палитры баннера и образец заголовка, набранного Euclid Flex.",
+        "section": "Цвет и типографика",
+        "variants": [
+          {
+            "src": "assets/projects/dutybox-grass/04-960.webp",
+            "width": 960
+          },
+          {
+            "src": "assets/projects/dutybox-grass/04-1600.webp",
+            "width": 1600
+          },
+          {
+            "src": "assets/projects/dutybox-grass/04.jpg",
+            "width": 2800
+          }
+        ]
+      }
+    ],
+    "cover": {
+      "src": "assets/projects/dutybox-grass/cover.jpg",
+      "width": 1616,
+      "height": 1264,
+      "small": "assets/projects/dutybox-grass/cover-800.webp"
+    }
+  },
+  {
     "slug": "illuminati",
     "title": "Illuminati — Lighting Brand Identity",
     "name": "Illuminati",
